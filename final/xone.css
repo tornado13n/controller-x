@@ -7,4 +7,12 @@
         margin-top: -285px;*/
 }
 
+.xbox .stick {
+    position: absolute;
+    background: url(stick-2.svg);
+    background-position: -85px 0;
+    height: 83px;
+    width: 83px;
+}
+
 /*END Xbox One Controller Styling*/
