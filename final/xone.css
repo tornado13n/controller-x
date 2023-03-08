@@ -114,4 +114,24 @@
     transform: rotate(180deg);
 }
 
+.xbox .back, .xbox .start {
+    background: url(start-select-2.svg);
+    width: 33px;
+    height: 33px;
+    opacity: 0;
+}
+
+.xbox .back.pressed, .xbox .start.pressed {
+    opacity: 1;
+}
+
+.xbox .back {
+    float: left;
+}
+
+.xbox .start {
+    background-position: 33px 0px;
+    float: right;
+}
+
 /*END Xbox One Controller Styling*/
